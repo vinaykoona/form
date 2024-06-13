@@ -4,8 +4,11 @@
     <h1 align="center"> <font size="6" color="green"> <u>PRODUCT ORDER FORM</u></h1></font>
    <style>
    .one{
-    width:100px;
-    height:380px;
+    width:550px;
+    height:800px;
+}
+tr,td{
+    height: 50px;
 }
     </style>
 </head>
@@ -16,12 +19,18 @@
         <tr>
             <td>NAME</td>
             <td>:</td>
-            <td><input type="text"></td>
+            <!-- place holder it will display in box -->
+            <td><input type="text" placeholder="enter u r name"></td>
         </tr>
         <tr>
             <td>EMAIL</td>
             <td>:</td>
             <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>PHONENUMBER</td>
+            <td>:</td>
+            <td><input type="phonenumber"></td>
         </tr>
         
         
@@ -40,11 +49,7 @@
             <td>:</td>
             <td><input type="text"></td>
         </tr>
-        <tr>
-            <td>PHONENUMBER</td>
-            <td>:</td>
-            <td><input type="number"></td>
-        </tr>
+       
         <tr>
             <td>ORDERDATE</td>
             <td>:</td>
@@ -69,7 +74,12 @@
         <tr>
             <td>EXPECTED DELIVERY DATE</td>
             <td>:</td>
-            <td><input type="text"></td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td>RETURN PRODUCT</td>
+            <td>:</td>
+            <td><select for="text"> <option type="">  <option type="size">size is less then<option type="size"> size is greater then<option type="text">color<option type="text">defective item<option type="text"> none<option type="text"> write u r answer</option></select></td>
         </tr>
         <tr>
             <td>RETURN DAYS</td>
@@ -78,14 +88,20 @@
         </tr>
         
         <tr>
-        <td><button type="comform order"> conform order</button></td>
+        <td></td>
+       <td> <button> conform</button></td>
         </tr>
+        <tr> 
+            <td></td>
+            <td><center><a href="Slip.html">Slip</a></center></td>
+        </tr>
+      
     </fieldset>
 
         </center>
         
         
-        
+        <!-- <a href="Slip.html">Slip</a> -->
         
         
 
